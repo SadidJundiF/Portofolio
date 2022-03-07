@@ -1,0 +1,90 @@
+* {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+
+body .left-circle img {
+    z-index: 0;
+    margin-top: -250px;
+    position: absolute;
+}
+
+body .client {
+    background-color: #253449;
+    padding: 50px 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client {
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+}
+
+body .client h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #EEEEEE;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client h1 {
+        font-size: 48px !important;
+    }
+}
+
+body .client .merriweather {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    width: 100% !important;
+    z-index: 1;
+}
+
+body .client .review {
+    color: #EEEEEE;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+}
+
+body .client h5 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #EEEEEE;
+    z-index: 1;
+}
+
+body .client .company {
+    font-weight: 400;
+    font-size: 20px;
+    color: #666666;
+    z-index: 1;
+}
+
+body .client .client-img img {
+    width: 108px;
+    height: 60px;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client .review-section {
+        padding-top: 0px;
+    }
+}
+
+body .cl-light {
+    color: #EEEEEE;
+}
+
+body .cl-light-grey-2 {
+    color: #90BCB7;
+}
+
+body .font-lora {
+    font-family: 'Lora', sans-serif !important;
+}
